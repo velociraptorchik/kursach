@@ -1,0 +1,101 @@
+body, html{
+    width: 100%;
+}
+body{
+    margin: 0;
+}
+.main{
+    width: 100%;
+}
+
+/* шапка (или меню) */
+.menu{
+    background-color: #3867d6;
+    height: 50px;
+}
+.menu-container{
+    height: 100%;
+    width: 1000px;
+    color: white;
+    font-size: large;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.box-header, .box-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.box-header:hover{
+    background-color: #4b7bec;
+    transition: 0.3s;
+}
+
+/*телефон и лого*/
+.info{
+    width: 100%;
+
+    height: fit-content;
+
+}
+.container-info{
+    display: grid;
+    grid-template-columns: 10vw 30vw 1fr 30vw 10vw;
+    margin: auto;
+    width: 1000px;
+
+}
+.box-info{
+    font-size: large;
+    color: #4b6584; 
+    width: 300px;
+    display: flex;
+    
+    flex-flow: column;
+    justify-content: center;
+}
+.box-info-3{
+    display: flex;
+    text-align: end;
+    font-size: xx-large;
+}
+.logo-link{
+    text-align: center;
+}
+.phonenumber{
+    font-size: xx-large;
+}
+.logo{
+    background-image: url('');
+}
+img{
+    height: 30vh;
+}
+
+/*контакты*/
+
+
+
+
+/*футер*/
+footer{
+    background-color: #4b6584;
+    height: 50px;
+    position: relative;
+    bottom: 0px;
+    color: white;
+    font-weight: 0.3;  
+
+}
+.box-footer{
+    height: 100%;
+}
+.container-footer, .container-info{
+    margin: auto;
+    height: 100%;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
